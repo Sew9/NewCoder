@@ -61,7 +61,7 @@ def songs():
 
 
 print("Hello there my friend")
-your_mood = input("How's your mood today:-")
+your_mood = input("What kind of mood are you in:-")
 
 
 def emoji():
