@@ -49,7 +49,7 @@ db_lenght = len(data)
 # print(db_lenght)
 
 
-def magic8ball():
+def magic_8_ball():
     while True:
         random_ans = random.randint(0, db_lenght - 1)
         _ans = data[random_ans][0]
@@ -62,4 +62,4 @@ def magic8ball():
             print(_ans)
 
 
-magic8ball()
+magic_8_ball()
