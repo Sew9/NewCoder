@@ -31,7 +31,6 @@ random_name = random.randint(0, db_length - 1)
 # print(db_length)
 # print(random_name)
 # This will go to a random entry in column 1 of the database
-# https://www.youtube.com/watch?v=_Q9-JdOfwUk
 chosen_player = data[random_name]
 chosen_coach = data_two[0]
 chosen_player2 = data_three[random_name]
